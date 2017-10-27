@@ -1,4 +1,5 @@
 __pycache__/
 models/*.pkl
 data/*.csv
+.DS_Store
 .ipynb_checkpoints/
