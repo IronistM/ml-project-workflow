@@ -15,3 +15,14 @@ The outputs of this project are a data preparation pipeline and machine learning
 Also included in this repository in a simple python module - `custom_transformers.py` - that contains a couple of classes that define custom transformations used in the final data preparation pipeline.
 
 Note, a verbose list of Python3 dependencies for this project - i.e. the content of the entire virtual environment I used - are listed in `requirement.txt` file (that can be used to load all the dependencies into a clean virtual environment).
+
+
+# Installation
+
+## Anaconda
+
+
+`
+$ conda create -n ml-project-workflow python=3.5 anaconda
+$ source activate ml-project-workflow
+(ml-project-workflow)$ while read requirement; do conda install --yes $requirement; done < requirements.txt`
