@@ -2,7 +2,7 @@
 custom_transformers.py
 ~~~~~~~~~~~~~~~~~~~~~~
 
-This module contains custom SkiKit-Learn transfomers for use
+This module contains custom Scikit-Learn transfomers for use
 in the data preparation pipeline used in this data science 
 case study.
 """
