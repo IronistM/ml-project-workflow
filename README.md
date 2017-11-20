@@ -23,6 +23,6 @@ Note, a verbose list of Python3 dependencies for this project - i.e. the content
 
 
 `
-$ conda create -n ml-project-workflow python=3.5 anaconda
-$ source activate ml-project-workflow
+$ conda create -n ml-project-workflow python=3.5 anaconda    
+$ source activate ml-project-workflow     
 (ml-project-workflow)$ while read requirement; do conda install --yes $requirement; done < requirements.txt`
